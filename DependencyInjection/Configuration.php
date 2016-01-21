@@ -38,11 +38,7 @@ class Configuration implements ConfigurationInterface
                 ->scalarNode('actions_columns_size')->defaultValue(-1)->end()
                 ->scalarNode('actions_columns_title')->defaultValue('Actions')->end()
                 ->scalarNode('actions_columns_separator')->defaultValue('<br />')->end() // deprecated
-                ->arrayNode('jordigracia')
-                    ->children()
-                         ->scalarNode('protocol')->defaultValue('http')->end()
-                    ->end()         
-                ->end()
+               
                 ->arrayNode('pagerfanta')
                     ->addDefaultsIfNotSet()
                     ->children()
