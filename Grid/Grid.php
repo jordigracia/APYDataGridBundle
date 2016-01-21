@@ -494,6 +494,8 @@ class Grid implements GridInterface
 
     protected function getCurrentUri()
     {
+        $test = $this->container->getParameter( 'jordigracia.protocol' );
+        var_dump($test);
         return 'https://'.$this->request->getHttpHost().$this->request->getBaseUrl().$this->request->getPathInfo();
         
     }
