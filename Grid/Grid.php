@@ -494,7 +494,8 @@ class Grid implements GridInterface
 
     protected function getCurrentUri()
     {
-        return $this->request->getScheme() . '://' . $this->request->getHttpHost() . $this->request->getBaseUrl() . $this->request->getPathInfo();
+        return 'https://'.$this->request->getHttpHost().$this->request->getBaseUrl().$this->request->getPathInfo();
+        
     }
 
     protected function processPersistence()
