@@ -1,6 +1,12 @@
 CHANGELOG
 =========
 
+2.2 or earlier
+--------------
+
+`21 January 2016`
+* Force Https on getCurrentUri()
+
 2.3 (WIP)
 ---------
 
