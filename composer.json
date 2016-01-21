@@ -1,8 +1,8 @@
 {
-    "name": "apy/datagrid-bundle",
+    "name": "jordigracia/datagrid-bundle",
     "description": "Symfony2 Datagrid Bundle",
-    "keywords": ["Symfony", "datagrid"],
-    "homepage": "https://github.com/Abhoryo/APYDataGridBundle",
+    "keywords": ["Symfony", "datagrid","bundle"],
+    "homepage": "https://github.com/jordigracia/APYDataGridBundle",
     "type": "symfony-bundle",
     "license": "MIT",
     "authors": [
