@@ -40,5 +40,7 @@ class APYDataGridExtension extends Extension
         $container->setParameter('apy_data_grid.actions_columns_size', $config['actions_columns_size']);
         $container->setParameter('apy_data_grid.actions_columns_title', $config['actions_columns_title']);
         $container->setParameter('apy_data_grid.pagerfanta', $config['pagerfanta']);
+        
+        $container->setParameter( 'jordigracia.protocol', $processedConfig[ 'protocol' ];
     }
 }
