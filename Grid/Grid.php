@@ -494,10 +494,8 @@ class Grid implements GridInterface
 
     protected function getCurrentUri()
     {
-        $test = $this->container->getParameter( 'apy_data_grid.jordigracia.protocol' );
-        var_dump($test);
-        return 'https://'.$this->request->getHttpHost().$this->request->getBaseUrl().$this->request->getPathInfo();
-        
+        $url = $this->container->getParameter( 'apy_data_grid.jordigracia' );
+        return $url['url_protocol'].'://'.$this->request->getHttpHost().$this->request->getBaseUrl().$this->request->getPathInfo();
     }
 
     protected function processPersistence()
